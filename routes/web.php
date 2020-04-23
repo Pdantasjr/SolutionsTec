@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 *Controlador de exibição das páginas do site
 */
 
-Route::get('/', 'WebController@index')->name('home');
+Route::get('/', 'WebController@index')->name('/');
 Route::get('/sobre-nos', 'WebController@aboutUs')->name('sobre-nos');
 Route::get('/contato', 'WebController@contact')->name('contato');
 Route::get('/idealizador', 'WebController@creator')->name('idealizador');

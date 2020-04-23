@@ -1,9 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Jobs;
 
+use App\Http\Controllers\Controller;
 use App\portfolio;
 use Illuminate\Http\Request;
+
 
 class PortfolioController extends Controller
 {

@@ -44,7 +44,7 @@
                     @endforeach
                 </div>
                 <div class="value-proposition-buttons">
-                    <a href="{{ route('home') }}" class="button ghost w-button">Voltar para home</a>
+                    <a href="{{ route('/') }}" class="button ghost w-button">Voltar para home</a>
                 </div>
             </div>
         </div>
