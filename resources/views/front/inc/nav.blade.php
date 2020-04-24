@@ -1,7 +1,7 @@
 <div data-collapse="medium" data-animation="default" data-duration="400" class="nav-bar w-nav">
     <div class="wrapper navbar-2 w-container">
         <div class="logo-area">
-            <a href="{{ route('home') }}" class="nav-logo w-inline-block">
+            <a href="{{ route('/') }}" class="nav-logo w-inline-block">
                 <img src="{{ asset('front/assets/images/solutionstec.svg') }}" width="120" alt="Logotipo Solutions Tec">
             </a>
         </div>
